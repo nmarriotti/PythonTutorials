@@ -1,4 +1,4 @@
-# The __init__.py file inside this folder tells Python a file can be imported from this directory
+# The __init__.py inside this folder tells Python a file can be imported from this directory
 
 class Person():
 

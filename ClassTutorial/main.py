@@ -2,7 +2,9 @@
 # This is the main program and will read from the PersonClass.py file
 
 
-# import PersonClass.py so we can use the code it contains
+# Import Person class so we can use the code it contains
+# classes.person refers classes folder and person.py file and we are
+# importing the class Person
 from classes.person import Person
 
 def main():
@@ -11,9 +13,9 @@ def main():
     PersonList = []
 
     # Create some objects from the Person class
-    person1 = Person('Mary')
-    person2 = Person('Bill')
-    person3 = Person('John')
+    person1 = Person(input('Enter a persons name: '))
+    person2 = Person(input('Enter a persons name: '))
+    person3 = Person(input('Enter a persons name: '))
 
     # Add each person object to the PersonList array
     PersonList.append(person1)

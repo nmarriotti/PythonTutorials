@@ -22,7 +22,6 @@ def main():
     PersonList.append(person2)
     PersonList.append(person3)
 
-    print(person1.__name)
     # Check the length of the array. str() converts the number to a string
     print('The length of the array is: ' + str(len(PersonList)))
 

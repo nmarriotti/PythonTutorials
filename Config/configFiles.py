@@ -4,18 +4,12 @@ import configparser
 
 def main():
 
-    cfg = configparser.ConfigParser()
-    cfg.read('settings.cfg')
+    config_file = 'settings.cfg'
+    checkFileExists(config_file)
 
-    title = cfg['title']['name']
-    city = cfg['contact']['city']
-    home = cfg['files']['home']
-
-    print(title)
-    print(city)
-    print(home)
-
-
+def checkFileExists(input):
+    if input.is_file():
+        print('True')
 
 
 
